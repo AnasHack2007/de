@@ -9,6 +9,12 @@
     justify-content: space-around;
 }
 
+body{
+    background-image: url(de.png);
+    background-repeat:no-repeat;
+    background-size:100% 200vh;
+}
+
 
 .e h1{
     margin-top: 40px;
@@ -113,10 +119,68 @@
 transform: scale(1.1)
 }
 
-.im img{
-    height: 600px;
-    width: 600px;
-    border-radius: 4%;
-    margin-top: 20px;
-    margin-right: 40px;
+
+@media  (max-width:350px){
+
+    .e h1{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+
+    .in-1 input{
+        height: 40px;
+        width:250px ;
+    }
+    .in-2 input{
+        height: 40px;
+        width:250px ;
+    }
+    .in-3 input{
+        height: 40px;
+        width:250px ;
+    }
+    .in-4 input{
+        height: 40px;
+        width:250px ;
+    }
+
+    .ni input{
+        font-size: 20px;
+        height: 45px;
+        width: 230px;
+        margin-left: 20px;
+    }
+}
+
+@media  (max-width:440px){
+
+    .e h1{
+        font-size: 45px;
+        margin-left: 20px;
+    }
+
+    .in-1 input{
+        height: 45px;
+        width:300px ;
+    }
+    .in-2 input{
+        height: 45px;
+        width:300px ;
+    }
+    .in-3 input{
+        height: 45px;
+        width:300px ;
+    }
+    .in-4 input{
+        height: 45px;
+        width:300px ;
+    }
+
+    .ni input{
+        font-size: 25px;
+        height: 45px;
+        width:270px ;
+        margin-left: 23px;
+    }
+    
 }
